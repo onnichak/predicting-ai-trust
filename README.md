@@ -10,7 +10,7 @@ What share of a country's population trusts AI, and which factors explain the di
 
 ## Dataset
 
-A country-level AI survey dataset provided for the Machine Learning course: **47 countries × 43 columns**, with no missing values. The columns are survey percentages on AI trust, AI use at work, perceived safeguards, benefits and training, plus GDP per capita.
+A public country-level AI survey dataset from Kaggle: **47 countries × 43 columns**, with no missing values. The columns are survey percentages on AI trust, AI use at work, perceived safeguards, benefits and training, plus GDP per capita.
 
 - **Target:** `trust_ai_pct`, the percentage of people in a country who trust AI.
 - **Inputs (4):** `safeguards_sufficient_pct`, `increased_efficiency_pct`, `couldnt_work_without_ai_pct`, and log GDP per capita.
@@ -72,4 +72,4 @@ Open `predicting_ai_trust.ipynb` in Jupyter or VS Code. The results and charts a
 
 ## About this project
 
-This was a group project for the Machine Learning course in the MSc Business Analytics programme at Nanyang Technological University. I worked on the predictive modelling question: predicting AI trust.
+This was a team project on trust in AI. I was responsible for the predictive modelling stage; the four inputs came from the team's feature-selection step.
